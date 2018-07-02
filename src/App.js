@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header'
-import Footer from './Footer'
+import Icecream from './Icecream'
 import Article from './Article'
 
 class App extends Component {
@@ -75,7 +75,8 @@ class App extends Component {
           </div>
         </main>
 
-        <Footer />
+        <Icecream />
+
       </div>
     );
   }

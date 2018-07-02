@@ -1,14 +1,14 @@
 import React, { Component } from 'react' 
 
-class Footer extends Component {
+class Icecream extends Component {
     render() {
       return (
-        <Footer className="expanded row">
+        <div className="expanded row">
           <h6>&copy; 2017 Erebor Industries</h6>
           <h6 className="float-right">All rights reserved</h6>
-          </Footer>
+          </div>
     
       )
       }
     }
-export default Footer
+export default Icecream
